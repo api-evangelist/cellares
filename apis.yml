@@ -1,7 +1,25 @@
 aid: cellares
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cellares.png
 name: Cellares
-description: Cellares is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Cellares is an Integrated Development and Manufacturing Organization (IDMO)
+  for cell therapies, operating a global network of automated "Smart Factories." Its
+  FDA-recognized Cell Shuttle platform delivers high-throughput, end-to-end, cGMP industrial-scale
+  cell therapy manufacturing, and its Cell Q platform automates quality-control testing of
+  cell therapy products. Smart Factories operate in South San Francisco (CA), Bridgewater (NJ),
+  Leiden (Netherlands), and Kashiwa (Japan). Cellares was surfaced as a portfolio company of
+  8vc and profiled in the API Evangelist network; as a cell therapy manufacturing organization
+  it publishes no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/cellares/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cell Therapy
+- Biotechnology
+- Manufacturing
+- Life Sciences
+- Automation
+- Quality Control
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://cellares.com
+- type: Blog
+  url: https://www.cellares.com/news/
+- type: PrivacyPolicy
+  url: https://www.cellares.com/legal-privacy
+- type: TermsOfService
+  url: https://www.cellares.com/legal-privacy
+- type: DomainSecurity
+  url: security/cellares-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
